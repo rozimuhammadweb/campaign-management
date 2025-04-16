@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Campaign management api
 
 ## Prerequisites
@@ -22,7 +21,7 @@ php artisan db:seed
 ```
 
 ### Note:
-- **Seeder**: `UsersTableSeeder.php` file, which creates the `admin` and `company` users and assigns roles.
+- **Seeder**: `UsersTableSeeder.php` file, create `admin` and `company` users and assigns roles.
 
 
 
