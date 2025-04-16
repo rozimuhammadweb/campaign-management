@@ -1,20 +1,20 @@
-<?php 
+<?php
 
 namespace App\Mixins;
 
 use Illuminate\Http\JsonResponse;
 
-class ResponseFactoryMixin 
+class ResponseFactoryMixin
 {
     public function successJson()
     {
-        return function($data){
+        return function($data, $message = 'ok'){
             return [
                 'success'=> true,
                 'data' => $data,
-                'message' => 'ok'
+                'message' => $message
             ];
-        }; 
+        };
     }
 
     public function errorJson()
